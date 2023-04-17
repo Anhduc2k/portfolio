@@ -128,27 +128,18 @@ export default function Resume() {
           </div>
 
           <div className="resume__detail">
-            <h4>Monkey - Dự án Tutoring</h4>
+            <h4>Monkey - Dự án Monkey</h4>
             <p className="font-italic">Frontend Developer</p>
             <p className="working-time">01/2023 - Current</p>
             <ul>
-              <li>Xây dưỵng giao diện cho website Monkey</li>
+              <li>Xây dựng giao diện cho website Monkey</li>
               <li>
-                
-                  <li>Team gồm 4 thành viên</li>
-                <ul>
+              
                   <li>
-                  Xây dựng CRM cho việc quản lí các tài liệu cho các buổi học.
-                  </li>
-                  <li>
-                  Xây dựng CRM cho việc quản lí giáo viên, học sinh, lớp học.
-                  </li>
-                  <li>
-                 Xây dựng website phụ huynh - học sinh để phụ huynh có thể kiểm tra được các thông tin, tiến độ học tập của con em mình
+                Cập nhật bảng giá các khóa học của Monkey
                   </li>
                 
               <li>Maintain fix bug hệ thống</li>
-                </ul>
               </li>
               
               <li>
