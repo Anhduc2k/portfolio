@@ -10,42 +10,29 @@ const dataSkills = [
   },
   {
     img: "fa fa-fire",
-    title: "Framework sử dụng",
+    title: "Framework",
     knowledgeDetail: "Reactjs, Nextjs, Angular",
   },
   {
     img: "fa fa-graduation-cap",
-    title: "Library sử dụng",
+    title: "Library",
     knowledgeDetail: "React-router, Redux, React Hooks, React-hook-form, React-query, Storybook ...",
   },
   {
     img: "fa fa-bookmark-o",
-    title: "Kĩ năng khác",
-    knowledgeDetail: "SEO, Google-tracking, Typescript, Restful Api",
+    title: "Other skills",
+    knowledgeDetail: "SEO, GTM, Clevertap, Typescript, Restful Api",
   },
 ];
 
-const knowledge = [
-  [
-    { title: "HTML", learned: "100" },
-    { title: "CSS", learned: "90" },
-    { title: "JS", learned: "90" },
-  ],
-  [
-    { title: "REACTJS", learned: "80" },
-    { title: "ANGULAR", learned: "50" },
-    { title: "JQUERY", learned: "60" },
-  ],
-];
 export default function Skills() {
   return (
     <ContainerSkill>
       <Title content="Skills" id="skills" />
       <div>
         <P className="pb-1">
-          Tôi đã có hơn 1 năm kinh nghiệm trong vị trí Web Developer. Tôi có thể
-          làm việc với các framework như:{" "}
-          <strong>Reactjs, Nextjs, Angular</strong>
+        I have over 2 years of experience in the Web Developer position. I am proficient in working with frameworks such as
+          <strong> Reactjs, Nextjs, Angular</strong>
         </P>
         <div className="row">
           {dataSkills.map((item, index) => (
@@ -119,24 +106,5 @@ const ContainerSkill = styled.div`
     .language {
       padding-top: 15px;
     }
-  }
-`;
-
-const ContainerProgressbar = styled.div`
-  width: 100%;
-  border-radius: 5px;
-  overflow: hidden;
-  background-color: #ccc;
-  .progressbar {
-    width: ${(props) => props.learned}%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    overflow: hidden;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #0d6efd;
-    transition: width 0.6s ease;
   }
 `;

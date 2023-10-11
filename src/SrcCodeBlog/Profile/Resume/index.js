@@ -12,8 +12,8 @@ export default function Resume() {
             <h3>Sumary</h3>
             <h4>Lê Bá Anh Đức</h4>
             <p>
-              Tôi có hơn 1 năm kinh nghiệm trong vị trí Web Developer. Ngoài
-              công việc chuyên môn tôi có niềm đam mê với đá bóng.
+              I started working as a Web Developer in September 2022. Besides my
+              professional work, I have a passion for soccer (football).
             </p>
             <ul>
               <li>Ha Noi, Viet Nam</li>
@@ -22,67 +22,70 @@ export default function Resume() {
           </div>
           <div className="resume__detail">
             <h3>Education</h3>
-            <h4>Đại học Điện Lực</h4>
+            <h4>Electric Power University</h4>
             <p className="working-time">2018-2023</p>
             <ul>
-              <li>Chuyên ngành: Công nghệ phần mềm</li>
-              <li>GPA: 3.3</li>
+              <li>Field of expertise: Software Engineering</li>
+              <li>Graduated with honors</li>
             </ul>
           </div>
         </div>
         <div className="col-12 col-md-6">
-          
           <div className="resume__detail">
-            <h4>Monkey - Dự án Tutoring</h4>
+            <h4>Monkey - Project Hoc10</h4>
             <p className="font-italic">Frontend Developer</p>
             <p className="working-time">09/2021 - 9/2022</p>
             <ul>
-              <li>Phát triển tính năng và vận hành hệ thống cho dự án Hoc10</li>
               <li>
-                Cùng team đưa ra những giải pháp giải quyết các vấn đề người
-                dùng theo mô hình Agile Scrum
-                  <li>Team gồm 8 thành viên</li>
-                <ul>
-                  <li>Phát triển version 2 của website Hoc10</li>
-                  <li>
-                    Phát triển tính năng luyện tập, luyện thi cho học sinh
-                  </li>
-                  <li>
-                    Phát triển tính năng tập huấn, upload và chia sẻ slide bài
-                    giảng cho giáo viên
-                  </li>
-                  <li>
-                    Phát triển tính năng báo cáo chi tiết sách, game, luyện tập,
-                    luyện thi, ngân hàng câu hỏi
-                  </li>
-              <li>
-                Làm game tương tác trên sách giáo khoa điện tử
+                Developing features and maintaining system operations for the
+                Hoc10 project
               </li>
+              <li>
+                Collaborated with the team to devise solutions for user issues
+                using the Agile Scrum framework
+                <li>The team consists of 8 members</li>
+                <ul>
+                  <li>Developing version 2 of the Hoc10 website</li>
                   <li>
-                    Phát triển tính năng báo lỗi trên sách, bài luyện tập, bài
-                    luyện thi, tập huấn
+                    Developing practice and exam preparation features for
+                    students
                   </li>
                   <li>
-                    Phát triển phần Blog, checking hành vi người dùng bằng
-                    GOOGLE-TAG-MANAGER
+                    Developing features for teacher training, uploading, and
+                    sharing lecture slides with teachers
                   </li>
-              <li>Maintain fix bug hệ thống</li>
+                  <li>
+                    Developing detailed reporting features for books, games,
+                    practice, test preparation, and question warehouse
+                  </li>
+                  <li>Creating interactive games for electronic textbooks</li>
+                  <li>
+                    Developing a feature for reporting errors in textbooks,
+                    practice exercises, test materials, and training materials
+                  </li>
+                  <li>
+                    Developing the Blog section and tracking user behavior using
+                    Google Tag Manager
+                  </li>
+                  <li>Maintain, fix bug</li>
                 </ul>
               </li>
               <li>
-                Giải nhì cuộc thi sáng tạo công nghệ <strong>We Share</strong>{" "}
-                do Monkey tổ chức
+                Won second place in the <strong>We Share</strong> technology
+                innovation competition organized by Monkey
                 <ul>
                   <li>
-                    Lên ý tưởng cùng team, tìm hiểu công nghệ sử dụng, trực tiếp
-                    xây dựng và phát triển game nối, đoán từ, chọn đáp án đúng.
-                    Dùng công nghệ real-time (Server Sent Events vs WebSockets)
-                    để tạo cuộc thi cho học sinh.
+                    Collaborated with the team to brainstorm ideas, researched
+                    the technology stack, and directly designed, developed, and
+                    built interactive games like word connections, guessing
+                    words, and multiple-choice questions. Utilized real-time
+                    technologies like Server Sent Events or WebSockets to create
+                    competitive events for students
                   </li>
                 </ul>
               </li>
               <li>
-                Website phát triển:{" "}
+                Website:{" "}
                 <span>
                   <a href="https://hoc10.vn/" target="_blank" rel="noreferrer">
                     Hoc10
@@ -93,33 +96,43 @@ export default function Resume() {
           </div>
 
           <div className="resume__detail">
-            <h4>Monkey - Dự án Tutoring</h4>
+            <h4>Monkey - Project Tutoring</h4>
             <p className="font-italic">Frontend Developer</p>
             <p className="working-time">09/2022 - Current</p>
             <ul>
-              <li>Phát triển tính năng và vận hành hệ thống cho dự án Tutoring</li>
               <li>
-                
-                  <li>Team gồm 4 thành viên</li>
+                Developing features and managing system operations for the
+                Tutoring project
+              </li>
+              <li>
+                <li>The team consists of 4 members</li>
                 <ul>
                   <li>
-                  Xây dựng CRM cho việc quản lí các tài liệu cho các buổi học.
+                    Building a CRM system for managing documents used in
+                    teaching sessions
                   </li>
                   <li>
-                  Xây dựng CRM cho việc quản lí giáo viên, học sinh, lớp học.
+                    Building a CRM system for managing teachers, students, and
+                    classes
                   </li>
                   <li>
-                 Xây dựng website phụ huynh - học sinh để phụ huynh có thể kiểm tra được các thông tin, tiến độ học tập của con em mình
+                    Developing a website for parents and students, allowing
+                    parents to monitor their children's academic information and
+                    progress
                   </li>
-                
-              <li>Maintain fix bug hệ thống</li>
+                  <li>Feature multiple languages</li>
+                  <li>Maintain, fix bug</li>
                 </ul>
               </li>
-              
+
               <li>
-                Website phát triển:{" "}
+                Website:{" "}
                 <span>
-                  <a href="https://monkey.edu.vn/phu-huynh/dang-nhap" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://monkey.edu.vn/phu-huynh/dang-nhap"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Tutoring
                   </a>
                 </span>
@@ -128,25 +141,59 @@ export default function Resume() {
           </div>
 
           <div className="resume__detail">
-            <h4>Monkey - Dự án Monkey</h4>
+            <h4>Monkey - Project Monkey</h4>
             <p className="font-italic">Frontend Developer</p>
             <p className="working-time">01/2023 - Current</p>
             <ul>
-              <li>Xây dựng giao diện cho website Monkey</li>
+              <li>Designing the user interface for the Monkey website</li>
               <li>
-              
-                  <li>
-                Cập nhật bảng giá các khóa học của Monkey
-                  </li>
-                
-              <li>Maintain fix bug hệ thống</li>
+                <li>Updating the price list for Monkey's courses</li>
+
+                <li>Maintain, fix bug</li>
               </li>
-              
+
               <li>
-                Website phát triển:{" "}
+                Website:{" "}
                 <span>
-                  <a href="https://monkey.edu.vn/" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://monkey.edu.vn/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Monkey
+                  </a>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div className="resume__detail">
+            <h4>Monkey - Project AI Speaking</h4>
+            <p className="font-italic">Frontend Developer</p>
+            <p className="working-time">06/2023 - Current</p>
+            <ul>
+              <li>Create base project</li>
+              <li>
+                <li>
+                  Developing a feature to record audio for pronunciation
+                  assessment and scoring
+                </li>
+                <li>
+                  Generating both summary and detailed reports for each syllable
+                  of the students
+                </li>
+                <li>SEO, Tracking user with Clevertap</li>
+                <li>Maintain, fix bug</li>
+              </li>
+
+              <li>
+                Website:{" "}
+                <span>
+                  <a
+                    href="https://monkey.edu.vn/kiem-tra-phat-am-tieng-anh-mien-phi-cho-be"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Monkey AI Speaking
                   </a>
                 </span>
               </li>
