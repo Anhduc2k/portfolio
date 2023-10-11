@@ -25,9 +25,7 @@ export default function About() {
       <Title content={"About"} id="about" />
       <div>
         <p>
-          Xin chào, tôi là Đức! Đây là nơi tôi ghi lại những kiến thức hay đôi
-          khi là những chia sẻ trong quá trình làm việc, học tập những năm ở vị
-          trí lập trình viên (Software engineer).
+        Hello, I'm Đức! This is where I document my knowledge or sometimes share my experiences during my years as a software engineer.
         </p>
         <div className="row">
           <div className="col-lg-5 col-md-6 col-sm-5 col-12 pr-0 container-avatar">

@@ -51,7 +51,7 @@ const ContainerHome = styled.div`
   padding: 3rem;
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 50vh;
   margin: auto;
   background: linear-gradient(-45deg, #ffffff, #99ffa640, #e8e8e8, #1da1f291);
   background-size: 400% 400%;

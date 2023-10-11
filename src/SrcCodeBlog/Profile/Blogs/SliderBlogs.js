@@ -6,27 +6,27 @@ const dataSliderBlog = [
   {
     id: 1,
     srcImage: "https://wallpaperaccess.com/full/279643.jpg",
-    title: "Tìm hiểu về React V18",
+    title: "Learn about React V18",
     slug: "learn-about-react-v18",
   },
   {
     id: 2,
     srcImage: "https://wallpaperaccess.com/full/279643.jpg",
-    title: "SEO trên Website sử dụng ReactJS",
+    title: "SEO with ReactJS",
     slug: "seo-reactjs",
   },
   {
     id: 3,
     srcImage:
       "https://images.pexels.com/photos/585752/pexels-photo-585752.jpeg?auto=compress&cs=tinysrgb&w=600",
-    title: "Download all images trên website sử dụng javascript",
+    title: "Download all images using javascript",
     slug: "download-all-img-js",
   },
   {
     id: 4,
     srcImage:
       "https://images.pexels.com/photos/585752/pexels-photo-585752.jpeg?auto=compress&cs=tinysrgb&w=600",
-    title: "Truyền dữ liệu giữa React Components",
+    title: "Passing Data Between React Components",
     slug: "data-transmission-props",
   },
 ];
@@ -62,7 +62,7 @@ export default function SliderBlogs({ handleShowModal = () => {} }) {
                 className="custom-btn btn-blog"
                 onClick={() => handleShowModal(item.slug)}
               >
-                Xem thêm
+                View more
               </button>
             </div>
           </div>

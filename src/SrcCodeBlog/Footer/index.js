@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="ware ware-3" />
         <div className="ware ware-4" />
         <div className="contact">
-          <p data-heading="Liên Hệ cho tôi"></p>
+          <p data-heading="Contact me"></p>
           <div className="qr-code">
             <QRCodeSVG
               value="https://www.facebook.com/duclapulga"
