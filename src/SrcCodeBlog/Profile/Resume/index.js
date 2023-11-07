@@ -149,6 +149,7 @@ export default function Resume() {
               <li>
                 <li>Updating the price list for Monkey's courses</li>
 
+                <li>Improve core web vitals (SEO)</li>
                 <li>Maintain, fix bug</li>
               </li>
 

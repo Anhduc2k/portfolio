@@ -93,7 +93,7 @@
 @media screen and (max-width: 769px) {
   .Intro {
     flex-direction: column;
-    gap: 7rem;
+    gap: 5rem;
     height: 1rem;
   }
 
