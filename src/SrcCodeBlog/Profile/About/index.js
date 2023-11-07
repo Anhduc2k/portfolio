@@ -30,7 +30,7 @@ export default function About() {
         <div className="row">
           <div className="col-lg-5 col-md-6 col-sm-5 col-12 pr-0 container-avatar">
             <img
-              src="/img/img.jpg"
+              src="/img/hihi.jpg"
               alt="img-avatar"
               width="300px"
               className="img-avatar"

@@ -95,6 +95,7 @@ const ContainerSkill = styled.div`
       padding: 10px;
       padding-top: 10px;
       line-height: 30px;
+      min-height: 232px;
     }
   }
   .language {
